@@ -160,6 +160,6 @@ app.use((req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Feedback Tracker API running on http://localhost:${PORT}`);
-  console.log(`📁 Data will be stored in: ${DATA_FILE}`);
+  console.log(`Feedback Tracker API running on http://localhost:${PORT}`);
+  console.log(`Data will be stored in: ${DATA_FILE}`);
 });
